@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgh@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: -moz-linear-gradient(background-color);
+    background-color:rgb(0, 0, 0);
+    color:rgb(235, 231, 235);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40%;
+    background-color: rgb(221, 33, 215);
+    display:block;
+    justify-content: space-between;
+    align-items:right;
+    z-index:100 ;
+}
+
+.logo{
+    font-size: 30px;
+    color: rgb(160, 16, 232);
+    text-decoration:grey;
+    font-weight: 500;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%rgba(0,0,0,0.5)50%,) ,url(K2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.navbar a{
+     font-size: 20px;
+     color: rgb(199, 16, 212);
+     text-decoration: solid;
+     font-weight: 500;
+     margin-left: 35px;
+}
+
+.navbar a:hover {
+    color: #da4141;
+}
+
+
+.home{
+    height: 100vh;
+    background: url("");
+    background-size:500px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+} 
+
+.home-content{
+    background:rgb(35, 90, 174);
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-size: 700;
+}
+
+.home-content h2{
+    font-size: 32px;
+    font-size: 700;
+    color: rgb(38, 164, 236);
+}
+
+.home-content p{
+    font-size: 16px;
+    font-size: 700;
+    color: rgb(14, 105, 158);
+    margin: 25px;
+}
+
+.home-content .btn-box{
+    display:  block;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background: rgb(14, 105, 158);
+    border-radius:10px;
+    font-size: 20px;
+    color:#000;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hme.body{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
